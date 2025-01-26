@@ -69,7 +69,7 @@ if __name__ == '__main__':
    # quick_sort(nums, 0, len(nums)-1)
    # print(nums)
 
-   # nums = [4, 8, 2, 1, 1]
+   # nums = [4, 8, 2, 1, 3]
    # bubble_sort(nums)
-    print(quick_sort_op(nums))
-    print(nums)
+    print(partition(nums,1,4))
+    print()
