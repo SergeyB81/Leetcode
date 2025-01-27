@@ -57,6 +57,7 @@ def quick_sort(arr, start, end):
         pi = partition(arr, start, end)
         quick_sort(arr, start, pi - 1)
         quick_sort(arr, pi + 1, end)
+        return  pi
 
 
 
@@ -64,12 +65,12 @@ def quick_sort(arr, start, end):
 
 if __name__ == '__main__':
     print('sergey')
-    nums = [4,8,2,1,3]
+    nums = [4,8,0,10,2,1,3,2,9,7]
     #nums = [2,2,2,2]
    # quick_sort(nums, 0, len(nums)-1)
    # print(nums)
 
    # nums = [4, 8, 2, 1, 3]
    # bubble_sort(nums)
-    print(partition(nums,1,4))
-    print()
+    print(quick_sort(nums,0,9))
+    print(nums)
