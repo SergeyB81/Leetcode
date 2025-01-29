@@ -33,7 +33,7 @@ def heap_sort(arr):
 
 
 if __name__ == ('__main__'):
-    nums = [1,8,3,0,5]
+    nums = [8,1,3,0,5,2]
     print_tree(nums)
     heap_sort(nums)
     print(nums)
