@@ -14,3 +14,4 @@ print(create_palindrome("радар"))  # радар
 print(create_palindrome("Радар"))  # радар
 print(create_palindrome("тест"))   # тест_iтсет
 print(create_palindrome("Python")) # python_inohtyp
+print('good')

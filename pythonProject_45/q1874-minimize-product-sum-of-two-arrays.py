@@ -14,10 +14,11 @@ class Solution:
 
 
 
+
 if __name__ == ('__main__'):
     print('Sergey')
-    n1 = [1,2]
-    n2 = [4,6]
+    n1 = [10,1,2]
+    n2 = [10,4,6]
 
     print(Solution().minProductSum(n1,n2))
 
