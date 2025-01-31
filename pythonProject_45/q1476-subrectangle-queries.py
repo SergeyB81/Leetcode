@@ -12,10 +12,10 @@ class SubrectangleQueries:
         return self.rec[row][col]
 
 if __name__ == ('__main__'):
-    rc = [[5, 5, 5], [5, 5, 5], [5, 5, 5], [5, 5, 5]]
+    rc = [[5, 7, 5], [5, 5, 5], [5, 5, 5], [5, 5, 5]]
     sq = SubrectangleQueries(rc)
     print(sq.rec)
-    print(sq.getValue(1,2))
+    print(sq.getValue(0,1))
     sq.updateSubrectangle(3,0,3,2,10)
     print(sq.rec)
   #  print(rc)
