@@ -28,5 +28,5 @@ class Solution:
 
 
 if __name__ == '__main__':
-    n = 234
+    n = 238
     print(Solution().subtractProductAndSum(n))

@@ -10,11 +10,24 @@ class Solution:  # O(n**2)
             answers.append(op)
         return answers
 
-
+    def minOperations1(self, boxes: str) -> list[int]:  # O(n**2)
+        n = len(boxes)
+        answer = [0] * n
+        curr, steps = 0, 0
+        for i in range(n):
+            answer[i] += steps
+            curr += int(boxes[i])
+            steps += curr
+        curr, steps = 0, 0
+        for i in reversed(range(n)):
+            answer[i] += steps
+            curr += int(boxes[i])
+            steps += curr
+        return answer
 
 
 if __name__ == '__main__':
     boxes = "110"
-    print(Solution().minOperations(boxes))
+    print(Solution().minOperations1(boxes))
 
 
