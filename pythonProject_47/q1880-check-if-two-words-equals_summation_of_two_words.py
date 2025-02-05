@@ -15,7 +15,7 @@ if __name__ == ('__main__'):
 
     test_cases = [['acb', 'cba', 'cdb', True]]
 
-    print(Solution().get_num_repr('cdb'))
+    print(Solution().get_num_repr('cda'))
 
     for test_case in test_cases:
         assert Solution().isSumEqual(*test_case[:3]) == test_case[3]
