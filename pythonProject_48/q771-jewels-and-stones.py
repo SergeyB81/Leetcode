@@ -23,5 +23,5 @@ class Solution:
 
 if __name__ == ('__main__'):
     jewels = "aA"
-    stones = "aAAbbbb"
+    stones = "aAdvsdv; mlabmrAAbbb"
     print(Solution().numJewelsInStones(jewels, stones))
