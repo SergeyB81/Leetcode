@@ -15,7 +15,7 @@ class Solution:
 
 if __name__ == '__main__':
     points = [[1, 3], [3, 3], [5, 3], [2, 2]]
-    queries = [[2, 3, 1], [4, 3, 1], [1, 1, 2]]
+    queries = [[2, 3, 1], [4, 3, 1], [1, 1, 5]]
     print(Solution().countPoints(points, queries))
 
 
