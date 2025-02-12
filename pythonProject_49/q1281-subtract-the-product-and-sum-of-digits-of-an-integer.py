@@ -26,7 +26,6 @@ class Solution:
         return product - summ
 
 
-
 if __name__ == '__main__':
     n = 238
     print(Solution().subtractProductAndSum(n))
