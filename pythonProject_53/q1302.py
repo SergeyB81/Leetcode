@@ -114,6 +114,7 @@ if __name__ == '__main__':
     nodes = [1, 2, 3, 4, 5, 'N', 6, 7, 'N', 'N', 'N', 'N', 8]
     nodes = [6, 7, 8, 2, 7, 1, 3, 9, 'N', 1, 4, 'N', 'N', 'N', 5]
     root = buildTree(nodes)
+    print(root)
 
     print_tree(root)
 
