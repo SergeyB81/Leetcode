@@ -13,5 +13,5 @@ class Solution:
 
 if __name__ == ('__main__'):
     print('sergey')
-    num = 128
+    num = 7
     print(Solution().numberOfSteps(num))
