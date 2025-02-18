@@ -8,5 +8,5 @@ class Solution:
 
 if __name__ == '__main__':
     encoded = [6, 2, 7, 3]
-    first = 4
+    first = 5
     print(Solution().decode(encoded, first))
