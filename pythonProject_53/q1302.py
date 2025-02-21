@@ -63,19 +63,19 @@ def buildTree(ip):
     q = deque()
 
     # Push the root to the queue
-    q.append(root)
+    q.append(root) # все потенциальные узлы, уже использованные
     size = size + 1
 
     # Starting from the second element
     i = 1
     while (size > 0 and i < len(ip)):
         # Get and remove the front of the queue
-        currNode = q[0]
+        currNode = q[0] # текущий узел, который мы строим
         q.popleft()
         size = size - 1
 
         # Get the current node's value from the string
-        currVal = ip[i]
+        currVal = ip[i] # значение для текущего узла из строки
 
         # If the left child is not null
         if (currVal != "N"):
