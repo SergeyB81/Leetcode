@@ -114,7 +114,7 @@ def Max(list):
     return m if m > list[0] else list[0]
 
 
-arr = [1]
+arr = [1,2,5,0]
 print(Max(arr))
 #look more
 
