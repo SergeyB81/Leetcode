@@ -10,7 +10,7 @@ class Solution:
 
 
 if __name__ == '__main__':
-    ip = "255.100.50.0"
+    ip = "255.100.50.000."
     #print(ip.replace('.','[.]'))
     print('sergey')
 
