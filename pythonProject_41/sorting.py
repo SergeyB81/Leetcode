@@ -72,7 +72,7 @@ if __name__ == '__main__':
 
    # nums = [4, 8, 2, 1, 3]
    # bubble_sort(nums)
-    print(bubble_sort(nums))
+    print(selection_sort(nums))
     print(nums)
 
-#19.03.2025
+#selection_sort 21.03.2025
