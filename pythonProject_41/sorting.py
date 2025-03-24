@@ -74,4 +74,4 @@ if __name__ == '__main__':
    # bubble_sort(nums)
     print(insertion_sort(nums))
     print(nums)
-#selection_sort 21.03.2025
+#selection_sort 21.03.2025 ++
