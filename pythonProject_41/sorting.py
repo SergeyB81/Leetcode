@@ -1,19 +1,20 @@
 def bubble_sort(arr):
-    #O(n**2)
+    # O(n**2)
     swapped = False
     for i in range(len(arr)):
         for j in range(len(arr) - 1 - i):
-            if arr[j] > arr[j+1]:
-                arr[j], arr[j+1] = arr[j+1], arr[j]
+            if arr[j] > arr[j + 1]:
+                arr[j], arr[j + 1] = arr[j + 1], arr[j]
                 swapped = True
         if not swapped:
             break
 
+
 def selection_sort(arr):
-    #O(n**2)
+    # O(n**2)
     for i in range(len(arr)):
         min_index = i
-        for j in range(i+1, len(arr)):
+        for j in range(i + 1, len(arr)):
             if arr[j] < arr[min_index]:
                 min_index = j
         arr[i], arr[min_index] = arr[min_index], arr[i]
@@ -22,12 +23,12 @@ def selection_sort(arr):
 def insertion_sort(arr):
     # O(n**2)
     for i in range(1, len(arr)):
-        j = i-1
+        j = i - 1
         cur_el = arr[i]
-        while j >= 0 and arr[j] > cur_el:
-            arr[j+1] = arr[j]
+        while j >= 0 and cur_el < arr[j]:
+            arr[j + 1] = arr[j]
             j = j - 1
-        arr[j+1] = cur_el
+        arr[j + 1] = cur_el  # insert
 
 
 def quick_sort_op(arr):
@@ -49,17 +50,15 @@ def partition(arr, start, end):
         if arr[j] < pivot:
             i = i + 1
             arr[i], arr[j] = arr[j], arr[i]
-    arr[i+1], arr[end] = arr[end], arr[i+1]
+    arr[i + 1], arr[end] = arr[end], arr[i + 1]
     return i + 1
+
 
 def quick_sort(arr, start, end):
     if start < end:
         pi = partition(arr, start, end)
         quick_sort(arr, start, pi - 1)
         quick_sort(arr, pi + 1, end)
-        return  pi
-
-
 
 
 
@@ -72,6 +71,6 @@ if __name__ == '__main__':
 
    # nums = [4, 8, 2, 1, 3]
    # bubble_sort(nums)
-    print(quick_sort_op(nums))
+    print(partition(nums, 0 ,6))
     print(nums)
 #selection_sort 21.03.2025 ++
