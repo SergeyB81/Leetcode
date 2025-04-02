@@ -16,6 +16,6 @@ if __name__ == ('__main__'):
     sq = SubrectangleQueries(rc)
     print(sq.rec)
     print(sq.getValue(0,1))
-    sq.updateSubrectangle(3,0,3,2,10)
+    sq.updateSubrectangle(1,0,2,1,10)
     print(sq.rec)
   #  print(rc)
