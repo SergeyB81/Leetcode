@@ -20,4 +20,4 @@ if __name__ == ('__main__'):
     for test_case in test_cases:
         assert Solution().isSumEqual(*test_case[:3]) == test_case[3]
 
-        #rep 03.04.2025
+        #rep 04
