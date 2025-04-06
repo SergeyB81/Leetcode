@@ -25,4 +25,4 @@ if __name__ == ('__main__'):
     jewels = "aA"
     stones = "aAdvsdv; mlabmrAAbbb"
     print(Solution().numJewelsInStones(jewels, stones))
-    #проверка
+    #rep
