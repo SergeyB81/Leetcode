@@ -10,3 +10,4 @@ class Solution:
 if __name__ == '__main__':
     nums = [8, 1, 2, 2, 3,7,9]
     print(Solution().smallerNumbersThanCurrent(nums))
+    #rep 07.04.2025
