@@ -13,3 +13,5 @@ if __name__ == '__main__':
     ps = ParkingSystem(2, 1, 0)
     for car_type in [1, 2, 3, 1]:
         print(ps.addCar(car_type))
+
+        # rep 08.04.2025
