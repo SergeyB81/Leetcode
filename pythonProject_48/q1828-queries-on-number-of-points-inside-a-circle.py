@@ -27,10 +27,10 @@ if __name__ == '__main__':
     print(Solution().countPoints(points, queries))
 
 
-    def my_recursive_func(x):
-        print(x)
-        my_recursive_func(x + 1)
+ #   def my_recursive_func(x):
+ #       print(x)
+ #       my_recursive_func(x + 1)
 
 
-    my_recursive_func(1)
+ #   my_recursive_func(1)
 
