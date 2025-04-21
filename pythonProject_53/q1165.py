@@ -18,3 +18,5 @@ if __name__ == '__main__':
     keyboard = "pqrstuvwxyzabcdefghijklmno"
     word = "leetcode"
     print(Solution().calculateTime(keyboard, word))
+
+    #rep good
