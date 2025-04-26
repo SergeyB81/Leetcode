@@ -26,3 +26,5 @@ if __name__ == ('__main__'):
     print('sergey')
     command = "G()()()()(al)"
     print(Solution().interpret(command))
+
+    # rep
