@@ -113,5 +113,8 @@ if __name__ == '__main__':
     tree = [7, 4, 3, 'N', 'N', 6, 19]
     original = buildTree(tree)
     cloned = buildTree(tree)
-    target = original.right
+    target = original.right.left
+
+    print_tree(original)
+
     print(Solution().getTargetCopy(original, cloned, target))
