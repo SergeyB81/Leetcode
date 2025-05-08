@@ -17,6 +17,9 @@ class Solution:
         return max( [b - a for a,b in zip(A, A[1:])] + [0])
 
 
+    # rep 1
+
+
 
 
 
