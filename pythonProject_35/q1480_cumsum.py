@@ -23,5 +23,7 @@ if __name__ == '__main__':
             nums[i] = nums[i] + nums[i-1]
         return nums
 
+    # rep 1
+
 
     print(runningSum(nums))
