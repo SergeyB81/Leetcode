@@ -73,4 +73,4 @@ if __name__ == '__main__':
     bubble_sort(nums)
    # print(partition(nums, 0 ,6))
     print(nums)
-# rep 3
+# rep new 3
