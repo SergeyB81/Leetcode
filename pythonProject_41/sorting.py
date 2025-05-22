@@ -74,4 +74,4 @@ if __name__ == '__main__':
    # print(partition(nums, 0 ,6))
     insertion_sort(nums)
     print(nums)
-# rep new 4
+# rep new 4-1
