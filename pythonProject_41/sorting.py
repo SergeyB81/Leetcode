@@ -98,4 +98,4 @@ if __name__ == '__main__':
    # print(partition(nums, 0 ,6))
     print(quick_sort(nums,0,9))
     print(nums)
-# rep new 4-1
+# rep 5
