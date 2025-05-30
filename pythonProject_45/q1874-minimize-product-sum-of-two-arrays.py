@@ -12,9 +12,6 @@ class Solution:
 
 
 
-
-
-
 if __name__ == ('__main__'):
     print('Sergey')
     n1 = [10,1,2]
@@ -22,5 +19,5 @@ if __name__ == ('__main__'):
 
     print(Solution().minProductSum(n1,n2))
 
-#rep 01.04.2025
+#rep 2
 
