@@ -18,4 +18,5 @@ if __name__ == ('__main__'):
     print(sq.getValue(0,1))
     sq.updateSubrectangle(1,0,2,1,10)
     print(sq.rec)
-  #  print(rc)
+
+    #rep 2
