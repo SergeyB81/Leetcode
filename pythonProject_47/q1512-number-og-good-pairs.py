@@ -36,4 +36,4 @@ if __name__ == ('__main__'):
     nums = [1, 2, 3, 1, 1, 3, 1]
     print(Solution().numIdenticalPairs(nums))
     print(Solution1().numIdenticalPairs(nums))
-    #rep 05.04.2025
+    #rep 5
