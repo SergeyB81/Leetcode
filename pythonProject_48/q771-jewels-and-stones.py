@@ -21,8 +21,8 @@ class Solution:
 
 
 
-if __name__ == ('__main__'):
-    jewels = "aA"
+if __name__ == '__main__':
+    jewels = "aAsn"
     stones = "aAdvsdv; mlabmrAAbbb"
     print(Solution().numJewelsInStones(jewels, stones))
-    #rep
+    #rep 2
