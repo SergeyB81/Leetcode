@@ -1,6 +1,7 @@
 class Solution:
     def smallerNumbersThanCurrent(self, nums: list[int]) -> list[int]:
         nums_sorted = sorted(nums) # n log n
+        #print(nums_sorted)
 
         for i, el in enumerate(nums): # n
             nums[i] = nums_sorted.index(el)
