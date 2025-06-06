@@ -26,11 +26,5 @@ if __name__ == '__main__':
     queries = [[2, 3, 1], [4, 3, 1], [1, 1, 2],[2, 2, 3]]
     print(Solution().countPoints(points, queries))
 
-
- #   def my_recursive_func(x):
- #       print(x)
- #       my_recursive_func(x + 1)
-
-
- #   my_recursive_func(1)
+#rep 4
 
