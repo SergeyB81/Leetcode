@@ -15,3 +15,7 @@ if __name__ == ('__main__'):
     print('sergey')
     num = 7
     print(Solution().numberOfSteps(num))
+
+
+ # rep 5
+
