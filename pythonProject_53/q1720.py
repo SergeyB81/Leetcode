@@ -11,4 +11,4 @@ if __name__ == '__main__':
     first = 5
     print(Solution().decode(encoded, first))
 
-# rep
+# rep 5
