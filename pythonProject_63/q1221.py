@@ -17,4 +17,4 @@ if __name__ == '__main__':
     s = "RLRRLLRLRL"
     print(Solution().balancedStringSplit(s))
 
-    # rep 1
+    # rep5
