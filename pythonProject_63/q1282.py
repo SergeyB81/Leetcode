@@ -66,4 +66,4 @@ if __name__ == '__main__':
     groupSizes = [3, 3, 3, 3, 3, 1, 3,3]
     print(Solution().groupThePeople1(groupSizes))
 
-    #rep2
+    #rep5
