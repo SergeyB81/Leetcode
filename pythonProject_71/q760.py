@@ -33,4 +33,7 @@ if __name__ == '__main__':
     nums2 = [50, 12, 32, 46, 28]
     print(Solution1().anagramMappings(nums1,nums2))
 
+    #rep5
+
+
 
