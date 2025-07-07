@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e6ea3f1-7c78-4968-a682-8598d98d256c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../pythonProject_70/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_70/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pythonProject_70/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_70/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pythonProject_71/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_71/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pythonProject_71/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_71/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2e6ea3f1-7c78-4968-a682-8598d98d256c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +34,7 @@
     "Python.q121.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/user/Desktop/work/git/leetcode/pythonProject_70",
+    "last_opened_file_path": "C:/Users/user/Desktop/work/git/leetcode/pythonProject_72",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
