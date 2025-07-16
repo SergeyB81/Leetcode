@@ -48,6 +48,6 @@ if __name__ == '__main__':
     delta = [-3, -2, 0, -4, -2]
     extraCandies = 3
 
-    print(Solution().kids_with_candies_one_on(candies, extraCandies))
+    print(Solution().kids_with_candies(candies, extraCandies))
 
-    # rep2
+    # rep5
