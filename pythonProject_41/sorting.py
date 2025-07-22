@@ -90,8 +90,8 @@ if __name__ == '__main__':
     print('sergey')
     nums = [4,8,0,10,2,1,3,2,9,7]
    # nums = [2,2,2,2]
-   # quick_sort(nums, 0, len(nums)-1)
-    insertion_sort(nums)
+    quick_sort(nums, 0, len(nums)-1)
+   # insertion_sort(nums)
    # selection_sort(nums)
    # nums = [4, 8, 2, 1, 3]
    # bubble_sort(nums)
