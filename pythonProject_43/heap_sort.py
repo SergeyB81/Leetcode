@@ -75,13 +75,14 @@ if __name__ == '__main__':
     print('-'*79)
 
    # heapify(nums,0,5)
-    #print_tree(nums)
+   # print_tree(nums)
    # print(nums)
 
-    print('-' * 79)
 
     heap_sort(nums)
     print(nums)
-    # rep 3
+
+    print_tree(nums)
+    # rep5
 
 
