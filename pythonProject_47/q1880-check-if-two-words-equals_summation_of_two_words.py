@@ -21,7 +21,7 @@ class Solution:
         return self.get_num_repr(firstWord) + self.get_num_repr(secondWord) == self.get_num_repr(targetWord)
 
 
-# Основной блок запускается, если скрипт выполняется напрямую
+    # Основной блок запускается, если скрипт выполняется напрямую
 if __name__ == ('__main__'):  # <- Здесь ошибка: должно быть if __name__ == '__main__'
     print('sergey')
 
