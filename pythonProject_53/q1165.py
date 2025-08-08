@@ -19,4 +19,4 @@ if __name__ == '__main__':
     word = "leetcode"
     print(Solution().calculateTime(keyboard, word))
 
-    #rep 5+
+    #rep 5 Проверка
