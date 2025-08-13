@@ -13,4 +13,4 @@ if __name__ == '__main__':
     index = [0, 1, 2, 2, 1]
     print(Solution().createTargetArray(nums, index))
 
-    # rep 5
+#rep5
