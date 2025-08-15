@@ -7,7 +7,7 @@ class Solution:
 
 
 class Solution1:
-    def buildArray1(self, nums: list[int]) -> list[int]:
+    def buildArray(self, nums: list[int]) -> list[int]:
         return list(map(nums.__getitem__, nums))
 
 
