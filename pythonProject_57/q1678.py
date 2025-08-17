@@ -27,4 +27,4 @@ if __name__ == ('__main__'):
     command = "G()()()()(al)"
     print(Solution().interpret(command))
 
-    # rep5
+    #rep5
