@@ -108,4 +108,4 @@ if __name__ == '__main__':
     result = solution.sumEvenGrandparent(root)
     print(f"\n🎯 Итоговая сумма: {result}")
 
-#rep5
+#rep5+
