@@ -17,11 +17,7 @@ class Solution:
         return max( [b - a for a,b in zip(A, A[1:])] + [0])
 
 
-    # rep5
-
-
-
-
+#rep5
 
 if __name__ == ('__main__'):
     print('sergey')
