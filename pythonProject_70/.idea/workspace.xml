@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="7bc70ac6-8388-4064-870d-1cb1e63b0dd8" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +28,7 @@
     "Python.q760.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/user/Desktop/work/git/leetcode/pythonProject_70",
+    "last_opened_file_path": "C:/Users/user/Desktop/work/git/leetcode/pythonProject_71",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
