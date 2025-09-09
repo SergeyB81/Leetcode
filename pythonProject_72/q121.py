@@ -61,7 +61,7 @@ class Solution3:
         return max_profit
 
 if __name__ == '__main__':
-    prices = [7, 3, 15 ,5, 1, 8, 11, 4]
-    print(Solution2().maxProfit(prices))
+    prices = [7, 3, 15 ,5, 1, 8, 12, 4]
+    print(Solution3().maxProfit(prices))
 
     # rep5
