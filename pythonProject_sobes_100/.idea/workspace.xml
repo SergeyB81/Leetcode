@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="48bd3445-c2b5-4968-a15f-8d903a9df11b" name="Changes" comment="" />
+    <list default="true" id="48bd3445-c2b5-4968-a15f-8d903a9df11b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../pythonProject_72/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_72/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject_fp_rec/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_fp_rec/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="30pp38siiYoRwH7PkmPS4LxvyW6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -21,8 +27,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.new_word.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/user/Desktop/work/git/leetcode/pythonProject_sobes_100"
   }
 }]]></component>
   <component name="SharedIndexes">
