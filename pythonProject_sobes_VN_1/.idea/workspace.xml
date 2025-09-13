@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e10e63c2-3d54-4cb4-9b79-e587458836ab" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../pythonProject_fp_rec/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_fp_rec/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pythonProject_fp_rec/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_fp_rec/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e10e63c2-3d54-4cb4-9b79-e587458836ab" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,10 +32,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.q1.executor": "Run",
-    "Python.q2.executor": "Debug",
+    "Python.q2.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/user/Desktop/work/git/leetcode/pythonProject_sob1"
+    "last_opened_file_path": "C:/Users/user/Desktop/work/git/leetcode/pythonProject_sobes_VN_1"
   }
 }]]></component>
   <component name="SharedIndexes">
