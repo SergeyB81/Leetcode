@@ -41,8 +41,8 @@ class SparseVector:
         return result
 
 # Пример использования
-nums1 = [5, 0, 1, 40, 6, 0, 8, 5, 0]  # Вектор 1
-nums2 = [1, 0, 0, 2, 0, 14, 0, 0, 0]   # Вектор 2
+nums1 = [5, 0, 1, 40, 6, 0, 8, 0, 0, 3]  # Вектор 1
+nums2 = [1, 0, 0, 2, 0, 14, 0, 5, 0, 1]   # Вектор 2
 vec1 = SparseVector(nums1)
 vec2 = SparseVector(nums2)
 result = vec1.dot_product(vec2)
