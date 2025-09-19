@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5cf1459a-98e9-4260-b2f5-fff448cf81bb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../pythonProject_33/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_33/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pythonProject_33/.idea/pythonProject_33.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_33/.idea/pythonProject_33.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pythonProject_70/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_70/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pythonProject_71/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_71/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pythonProject_72/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_72/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pythonProject_fp_rec/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_fp_rec/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pythonProject_sobes_100/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_sobes_100/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pythonProject_sobes_VN_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_sobes_VN_1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pythonProject_sobes_VN_7/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_sobes_VN_7/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pythonProject_sobes_VN_7/.idea/pythonProject_sobes_VN_7.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_sobes_VN_7/.idea/pythonProject_sobes_VN_7.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pythonProject_sobes_VN_7/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_sobes_VN_7/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pythonProject_sobes_VN_7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_sobes_VN_7/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pythonProject_sobes_VN_8/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_sobes_VN_8/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pythonProject_sobes_VN_8/.idea/pythonProject_sobes_VN_8.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_sobes_VN_8/.idea/pythonProject_sobes_VN_8.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pythonProject_sobes_VN_8/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_sobes_VN_8/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pythonProject_sobes_VN_8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_sobes_VN_8/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5cf1459a-98e9-4260-b2f5-fff448cf81bb" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,7 +36,7 @@
     "Python.q2_SQL.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/user/Desktop/work/git/leetcode/pythonProject_69",
+    "last_opened_file_path": "C:/Users/user/Desktop/work/git/leetcode/pythonProject_sobes_VN_6",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
