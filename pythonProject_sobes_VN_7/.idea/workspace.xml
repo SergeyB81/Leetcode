@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="968d37cb-d1a0-4b82-832c-dbb92bd1b4cd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../pythonProject_sobes_VN_6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_sobes_VN_6/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="968d37cb-d1a0-4b82-832c-dbb92bd1b4cd" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +35,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/user/Desktop/work/git/leetcode/pythonProject_sobes_VN_8",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
   <component name="SharedIndexes">

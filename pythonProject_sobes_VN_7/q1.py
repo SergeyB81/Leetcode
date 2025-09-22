@@ -53,3 +53,5 @@ if __name__ == "__main__":
     print(f"Тест 3: {move_zeros([0, 0, 0, 1])}")  # [1, 0, 0, 0]
     print(f"Тест 4: {move_zeros([1, 2, 3])}")  # [1, 2, 3]
     print(f"Тест 5: {move_zeros([0, 0, 0])}")  # [0, 0, 0]
+
+# rep 5

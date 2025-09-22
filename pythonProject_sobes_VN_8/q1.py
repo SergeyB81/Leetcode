@@ -91,3 +91,6 @@ if __name__ == "__main__":
     for test in test_cases:
         result = find_max_unique(test)
         print(f"Строка: '{test}' -> Макс. уникальная подстрока: '{result}' (длина: {len(result)})")
+
+
+# rep5
