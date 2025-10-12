@@ -100,8 +100,8 @@ if __name__ == '__main__':
    # insertion_sort(nums)
    # selection_sort(nums)
    # nums = [4, 8, 2, 1, 3]
-   # bubble_sort(nums)
-    print(partition(nums, 0,7))
+    bubble_sort(nums)
+   # print(partition(nums, 0,7))
    # print(quick_sort(nums,0,9))
     print(nums)
-# rep 5+
+# rep 5
