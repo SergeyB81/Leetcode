@@ -104,4 +104,4 @@ if __name__ == '__main__':
    # print(partition(nums, 0,7))
    # print(quick_sort(nums,0,9))
     print(nums)
-# rep 5+
+# rep 5
