@@ -9,8 +9,7 @@ class Solution:
             for j in range(n):
                 if nums[i] == nums[j] and i < j:
                     pairs.append((i, j))
-        return (pairs)  # на литкоде len(pairs)
-
+        return pairs  # на литкоде len(pairs)
 
 class Solution1:
     def numIdenticalPairs(self, nums: list[int]) -> int:
@@ -36,4 +35,4 @@ if __name__ == ('__main__'):
     nums = [1, 2, 3, 1, 1, 3, 1]
     print(Solution().numIdenticalPairs(nums))
     print(Solution1().numIdenticalPairs(nums))
-    #rep5
+    #rep5+
