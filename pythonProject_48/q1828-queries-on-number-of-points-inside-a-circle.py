@@ -26,5 +26,5 @@ if __name__ == '__main__':
     queries = [[2, 3, 1], [4, 3, 1], [1, 1, 2],[2, 2, 3]]
     print(Solution().countPoints(points, queries))
 
-#rep 5
+#rep 5+
 
