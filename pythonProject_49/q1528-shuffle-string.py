@@ -15,4 +15,4 @@ if __name__ == '__main__':
     print(Solution().restoreString(s, indices))  # в новом списке буквы из s(codeleet) должны
                                                   # занять позиции согласно списку indicates по порядку
 
-    # rep 5+
+    # rep 5
