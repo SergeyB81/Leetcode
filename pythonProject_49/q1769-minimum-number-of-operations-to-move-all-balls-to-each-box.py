@@ -29,10 +29,10 @@ class Solution:  # O(n**2)
 # так в обе стороны
 
 if __name__ == '__main__':
-    boxes = "110"
+    boxes = "11011"
     print(Solution().minOperations1(boxes))
 
-    #rep5++
+    #rep5+
 
 
 
