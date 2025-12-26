@@ -21,4 +21,4 @@ if __name__ == '__main__':
     boxes = '110'
     print(Solution().minOperations(boxes))
 
-    #rep
+    #rep+
