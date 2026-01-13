@@ -40,4 +40,4 @@ if __name__ == '__main__':
     # Декодируем и выводим результат
     print(Solution().decode(encoded, first))  # Ожидаемый вывод: [5, 3, 1, 4, 7]
 
-    # rep5+
+    # rep5
