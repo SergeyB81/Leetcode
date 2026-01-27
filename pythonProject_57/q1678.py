@@ -3,7 +3,7 @@ class Solution:
         return command.replace('()','o').replace('(al)','al')
 
 
-class Solution:
+class Solution1:
     def interpret(self, command: str) -> str:
         command = list(command)
         n = len(command)
@@ -16,7 +16,6 @@ class Solution:
         for i in range(0,n):
             if command[i] in  ['(', ')']:
                 command[i] = ''
-# new
 
         return ''.join(command)
 
@@ -25,6 +24,6 @@ class Solution:
 if __name__ == ('__main__'):
     print('sergey')
     command = "G()()()()(al)"
-    print(Solution().interpret(command))
+    print(Solution1().interpret(command))
 
-    #rep5
+    #rep5 new communication deleted
