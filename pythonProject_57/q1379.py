@@ -87,9 +87,8 @@ class Solution:
         return inorder # Возвращает список всех узлов в порядке левый → корень → правый.
 
 
-class Solution:
+class Solution1:
     def getTargetCopy(self, original: TreeNode, cloned: TreeNode, target: TreeNode) -> TreeNode:
-        inorder = []  # Хранение порядка обхода (не используется в return)
         stack = []  # Используется для обхода
         cur = cloned  # Начинаем обход с корня клонированного дерева
         while True:
@@ -100,13 +99,11 @@ class Solution:
                 new_cur = stack.pop()  # Достаем последний узел из стека
                 if new_cur.val == target.val:
                     return new_cur  # Если нашли узел с нужным значением, возвращаем его
-                inorder.append(new_cur)  # (Лишняя строка, так как список не используется)
                 cur = new_cur.right  # Переходим в правое поддерево
             else:
                 break # Если стек пуст, обход закончен.
 
-        return inorder # Это лишняя строка, потому что она не используется
-                       # (метод либо возвращает new_cur, либо ничего не делает).
+
 
 
 if __name__ == '__main__':
@@ -117,7 +114,7 @@ if __name__ == '__main__':
 
     print_tree(original)
 
-    print(Solution().getTargetCopy(original, cloned, target))
+    print(Solution1().getTargetCopy(original, cloned, target))
 
 
     #rep5
