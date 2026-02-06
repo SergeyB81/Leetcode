@@ -42,8 +42,8 @@ class Solution:
         return list_of_groups
 
 
-class Solution:
-    def groupThePeople1(self, groupSizes: List[int]) -> List[List[int]]:
+class Solution1:
+    def groupThePeople(self, groupSizes: List[int]) -> List[List[int]]:
         size_to_people = defaultdict(list) # defaultdict автоматически создаёт для него значение по умолчанию
                                            # (в данном случае — пустой список).
         result = []
@@ -63,6 +63,6 @@ class Solution:
 
 
 if __name__ == '__main__':
-    groupSizes = [3, 3, 3, 3, 3, 1, 3,3]
-    print(Solution().groupThePeople1(groupSizes))
+    groupSizes = [3, 3, 3, 3, 3, 1, 3, 3]
+    print(Solution1().groupThePeople(groupSizes))
 #rep5
