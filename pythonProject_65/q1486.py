@@ -26,4 +26,4 @@ if __name__ == ('__main__'):
     start = 3
     print(Solution().xorOperation(n, start))
 
- #rep5
+ #rep5+
