@@ -21,10 +21,18 @@ class Codec:
 
 if __name__ == '__main__':
     c = Codec()
-    url = 'abds'
-    shorten = c.encode(url)
-    print(shorten)
-    original = c.decode(shorten)
-    print(original)
+    url1 = 'adfgh'
+    url2 = 'mfvlfm;lvmsl;c,c;la dlc'
+    shorten1 = c.encode(url1)
+    print(shorten1)
+    original1 = c.decode(shorten1)
+    print(original1)
+
+    print()
+
+    shorten2 = c.encode(url2)
+    print(shorten2)
+    original2 = c.decode(shorten2)
+    print(original2)
 
 #rep5
