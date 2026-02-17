@@ -31,7 +31,7 @@ if __name__ == '__main__':
     print('sergey')
     nums1 = [12, 28, 46, 32, 50]
     nums2 = [50, 12, 32, 46, 28]
-    print(Solution1().anagramMappings(nums1,nums2))
+    print(Solution().anagramMappings(nums1,nums2))
 
 #rep5
 
