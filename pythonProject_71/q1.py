@@ -66,7 +66,7 @@ class Solution1:
 if __name__ == '__main__':
     nums = [2, 7, 11, 15]
     target = 9
-    print(Solution().twoSum(nums, target))
+    print(Solution1().twoSum(nums, target))
 
 #rep5++
 
