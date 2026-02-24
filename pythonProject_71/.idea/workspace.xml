@@ -34,10 +34,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Python.q1.executor": "Debug",
+    "Python.1.executor": "Run",
+    "Python.q1.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/user/Desktop/work/git/leetcode/pythonProject_71",
+    "last_opened_file_path": "C:/Users/user/Desktop/work/git/leetcode/pythonProject_SORTS",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
