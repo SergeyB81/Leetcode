@@ -64,6 +64,8 @@ def word_ladder(begin_word, end_word, word_list):
     # Это означает, что преобразование невозможно
     return 0
 
+# tomorrow ++
+
 
 # Пример использования:
 begin_word = "same"
