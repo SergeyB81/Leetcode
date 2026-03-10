@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c51609a5-8ef9-4b82-994d-15e69057cd5d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../pythonProject_sobes_100/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_sobes_100/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c51609a5-8ef9-4b82-994d-15e69057cd5d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +39,7 @@
     "Python.turtle.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/user/Desktop/work/git/leetcode/pythonProject_Vanya"
+    "last_opened_file_path": "C:/Users/user/Desktop/work/git/leetcode/pythonProject_sobes_100"
   }
 }]]></component>
   <component name="SharedIndexes">
