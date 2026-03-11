@@ -15,4 +15,4 @@ print(unique_in_order('ABBCCAD'))         # ['A', 'B', 'C', 'A', 'D']
 print(unique_in_order([1, 2, 2, 3, 3]))   # [1, 2, 3]
 print(unique_in_order([]))
 
-# 1
+# 1+
