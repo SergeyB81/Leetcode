@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48bd3445-c2b5-4968-a15f-8d903a9df11b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../pythonProject_Vanya/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_Vanya/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pythonProject_Vanya/.idea/pythonProject_Vanya.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_Vanya/.idea/pythonProject_Vanya.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pythonProject_Vanya/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_Vanya/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pytorch/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pytorch/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pytorch/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pytorch/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pytorch/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pytorch/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +31,7 @@
     "Python.new_word.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/user/Desktop/work/git/leetcode/pythonProject_sobes_100"
+    "last_opened_file_path": "C:/Users/user/Desktop/work/git/leetcode/pythonProject_sobes_VN_1"
   }
 }]]></component>
   <component name="SharedIndexes">

@@ -1,63 +1,115 @@
+import os
+import json
+from PIL import Image
+
 import torch
-from random import randint
+import torch.utils.data as data
+import torchvision.transforms.v2 as tfs
+import torch.nn as nn
+import torch.optim as optim
+from tqdm import tqdm
 
 
-def act(z):
-    return torch.tanh(z)
+class DigitDataset(data.Dataset):
+    def __init__(self, base_path, train=True, transform=None):
+        # 1. Сначала сохраняем базовый путь, чтобы избежать AttributeError
+        self.base_path = base_path
+        # 2. Определяем конкретную папку (train или test)
+        self.folder_path = os.path.join(base_path, "train" if train else "test")
+        self.transform = transform
+
+        # Загружаем формат из корня датасета
+        with open(os.path.join(base_path, "format.json"), "r") as fp:
+            self.format = json.load(fp)
+
+        self.files = []
+        # Мы будем использовать CrossEntropyLoss с индексами классов,
+        # поэтому One-Hot (torch.eye) внутри Dataset обычно не нужен.
+
+        for _dir, _target in self.format.items():
+            dir_full_path = os.path.join(self.folder_path, _dir)
+            if os.path.exists(dir_full_path):
+                list_files = os.listdir(dir_full_path)
+                for _f in list_files:
+                    self.files.append((os.path.join(dir_full_path, _f), int(_target)))
+
+    def __getitem__(self, item):
+        path_file, target = self.files[item]
+        img = Image.open(path_file).convert('L')  # Конвертируем в ч/б на всякий случай
+
+        if self.transform:
+            # Превращаем в тензор и вытягиваем в вектор
+            img = self.transform(img)
+            img = torch.flatten(img).float() / 255.0
+
+        # CrossEntropyLoss в PyTorch ожидает индекс класса (Long), а не One-Hot вектор
+        return img, torch.tensor(target, dtype=torch.long)
+
+    def __len__(self):
+        return len(self.files)
 
 
-def df(z):
-    s = act(z)
-    return 1 - s * s
+class DigitNN(nn.Module):
+    def __init__(self, input_dim, num_hidden, output_dim):
+        super().__init__()
+        self.net = nn.Sequential(
+            nn.Linear(input_dim, num_hidden),
+            nn.ReLU(),
+            nn.Linear(num_hidden, output_dim)
+        )
+
+    def forward(self, x):
+        return self.net(x)
 
 
-def go_forward(x_inp, w1, w2):
-    z1 = torch.mv(w1[:, :3], x_inp) + w1[:, 3]
-    s = act(z1)
+# --- Настройки ---
+input_size = 28 * 28
+model = DigitNN(input_size, 32, 10)
+to_tensor = tfs.ToImage()
 
-    z2 = torch.dot(w2[:2], s) + w2[2]
-    y = act(z2)
-    return y, z1, z2
+# Загрузка данных
+try:
+    d_train = DigitDataset("dataset", train=True, transform=to_tensor)
+    train_data = data.DataLoader(d_train, batch_size=32, shuffle=True)
+except FileNotFoundError:
+    print("Ошибка: Проверьте, что папка 'dataset' и файл 'format.json' существуют.")
+    exit()
 
+# Обучение
+optimizer = optim.Adam(params=model.parameters(), lr=0.001)  # Снизил lr, 0.01 многовато для Adam
+loss_function = nn.CrossEntropyLoss()
+epochs = 5
 
-torch.manual_seed(1)
+model.train()
+for _e in range(epochs):
+    loss_mean = 0
+    train_tqdm = tqdm(train_data, leave=True)
 
-W1 = torch.rand(8).view(2, 4) - 0.5
-W2 = torch.rand(3) - 0.5
+    for x_train, y_train in train_tqdm:
+        predict = model(x_train)
+        loss = loss_function(predict, y_train)
 
-# обучающая выборка (она же полная выборка)
-x_train = torch.FloatTensor([(-1, -1, -1), (-1, -1, 1), (-1, 1, -1), (-1, 1, 1),
-                            (1, -1, -1), (1, -1, 1), (1, 1, -1), (1, 1, 1)])
-y_train = torch.FloatTensor([-1, 1, -1, 1, -1, 1, -1, -1])
+        optimizer.zero_grad()
+        loss.backward()
+        optimizer.step()
 
-lmd = 0.05  # шаг обучения
-N = 1000  # число итераций при обучении
-total = len(y_train) # размер обучающей выборки
+        loss_mean = 0.9 * loss_mean + 0.1 * loss.item()  # Экспоненциальное среднее для красоты
+        train_tqdm.set_description(f"Epoch [{_e + 1}/{epochs}], loss={loss_mean:.3f}")
 
-for _ in range(N):
-    k = randint(0, total-1)
-    x = x_train[k]  # случайный выбор образа из обучающей выборки
-    y, z1, out = go_forward(x, W1, W2)  # прямой проход по НС и вычисление выходных значений нейронов
-    e = y - y_train[k]  # производная квадратической функции потерь
-    delta = e * df(out)  # вычисление локального градиента
-    delta2 = W2[:2] * delta * df(z1)  # вектор из 2-х локальных градиентов скрытого слоя
+# Тестирование
+d_test = DigitDataset("dataset", train=False, transform=to_tensor)
+test_data = data.DataLoader(d_test, batch_size=500, shuffle=False)
 
-    W2[:2] = W2[:2] - lmd * delta * z1  # корректировка весов связей последнего слоя
-    W2[2] = W2[2] - lmd * delta  # корректировка bias
+model.eval()
+correct = 0
+total = 0
 
-    # корректировка связей первого слоя
-    W1[0, :3] = W1[0, :3] - lmd * delta2[0] * x
-    W1[1, :3] = W1[1, :3] - lmd * delta2[1] * x
+with torch.no_grad():
+    for x_test, y_test in test_data:
+        outputs = model(x_test)
+        _, predicted = torch.max(outputs.data, 1)
+        total += y_test.size(0)
+        correct += (predicted == y_test).sum().item()
 
-    # корректировка bias
-    W1[0, 3] = W1[0, 3] - lmd * delta2[0]
-    W1[1, 3] = W1[1, 3] - lmd * delta2[1]
-
-# тестирование обученной НС
-for x, d in zip(x_train, y_train):
-    y, z1, out = go_forward(x, W1, W2)
-    print(f"Выходное значение НС: {y} => {d}")
-
-# результирующие весовые коэффициенты
-print(W1)
-print(W2)
+accuracy = correct / total if total > 0 else 0
+print(f"\nAccuracy на тестовой выборке: {accuracy:.2%}")
