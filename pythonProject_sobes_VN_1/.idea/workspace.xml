@@ -31,6 +31,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.1.executor": "Run",
     "Python.11.executor": "Run",
     "Python.q1.executor": "Run",
     "Python.q2.executor": "Run",
