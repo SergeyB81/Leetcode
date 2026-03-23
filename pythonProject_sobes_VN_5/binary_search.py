@@ -53,3 +53,5 @@ if __name__ == "__main__":
     print(binarySearch(test_array, 5))  # Should return 1
     print(binarySearch(test_array, 100))  # Should return -1
     print(binarySearch([], 42))  # Edge case: empty array
+
+# good
