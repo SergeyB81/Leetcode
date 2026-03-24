@@ -43,7 +43,7 @@ print(next_smaller(2071))  # 2017
 print(next_smaller(9))     # -1
 print(next_smaller(111))   # -1
 print(next_smaller(135))   # -1
-print(next_smaller(1027))  # -1 (0172 не считается, так как начинается с 0)
+print(next_smaller(52839))  # -1 (0172 не считается, так как начинается с 0)
 
 
 """"
