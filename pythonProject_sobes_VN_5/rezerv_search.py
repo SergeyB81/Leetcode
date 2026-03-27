@@ -65,3 +65,5 @@ if __name__ == "__main__":
     n = len(stream)
     k = 5
     selectKItems(stream, n, k)
+
+# +
