@@ -105,7 +105,7 @@ def get_max_rec(arr):
     return arr[0] if arr[0] > sub_max else sub_max
 
 
-# wimp solution
+# wimp solution*
 def Max(list):
     if len(list) == 1:
         return list[0]

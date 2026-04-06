@@ -2,9 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e699de7-788c-4098-bc6d-2eab715de798" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../pythonProject_33/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_33/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject_35/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_35/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject_35/.idea/pythonProject_35.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_35/.idea/pythonProject_35.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject_39/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_39/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject_39/.idea/pythonProject_39.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_39/.idea/pythonProject_39.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject_41/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_41/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject_41/sorting.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_41/sorting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject_43/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_43/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject_43/heap_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_43/heap_sort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject_45/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_45/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject_45/.idea/pythonProject_45.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_45/.idea/pythonProject_45.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject_47/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_47/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject_48/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_48/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject_48/.idea/pythonProject_48.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_48/.idea/pythonProject_48.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject_49/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_49/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject_49/.idea/pythonProject_49.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_49/.idea/pythonProject_49.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject_51/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_51/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject_53/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_53/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject_53/.idea/pythonProject_53.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_53/.idea/pythonProject_53.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject_55/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_55/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject_55/.idea/pythonProject_55.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_55/.idea/pythonProject_55.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject_57/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_57/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject_59/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_59/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject_59/.idea/pythonProject_59.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_59/.idea/pythonProject_59.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject_61/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_61/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject_63/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_63/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject_65/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_65/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject_67/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_67/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject_69/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_69/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject_70/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_70/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject_70/.idea/pythonProject_70.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_70/.idea/pythonProject_70.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pythonProject_70/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_70/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject_71/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_71/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject_71/.idea/pythonProject_71.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_71/.idea/pythonProject_71.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pythonProject_71/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_71/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject_72/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_72/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject_72/.idea/pythonProject_72.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_72/.idea/pythonProject_72.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pythonProject_72/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_72/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject_sobes_VN_7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_sobes_VN_7/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject_sobes_VN_8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_sobes_VN_8/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject_sobes_VN_8/q1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_sobes_VN_8/q1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +66,8 @@
     "Python.catalog_recursia.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/user/Desktop/work/git/leetcode/pythonProject_sobes_100"
+    "last_opened_file_path": "C:/Users/user/Desktop/work/git/leetcode/pythonProject_sobes_100",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
