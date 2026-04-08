@@ -47,3 +47,4 @@ vec1 = SparseVector(nums1)
 vec2 = SparseVector(nums2)
 result = vec1.dot_product(vec2)
 print(result)
+# 111
