@@ -87,4 +87,4 @@ if __name__ == "__main__":
         print(f"Строка: '{test}' -> Макс. уникальная подстрока: '{result}' (длина: {len(result)})")
 
 
-# rep5
+# rep5+

@@ -1,13 +1,3 @@
-'''SELECT
-    c.id as customer_id,
-    tr.research@c_id,
-    t.amount
-FROM customers c
-LEFT JOIN transactions t
-    ON t.customer_id = c.id
-WHERE c.replace > "2022-01-01"
-HAVING t.posting_data > "2022-01-01"
-   AND t.amount > 1000
 
 ИСПРАВЛЕННЫЙ
 
