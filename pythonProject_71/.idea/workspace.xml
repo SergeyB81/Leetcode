@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2680b047-2ca9-47c2-ae83-d11417a374a6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../pythonProject_sobes_VN_8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_sobes_VN_8/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pytorch/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pytorch/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pytorch/.idea/pytorch.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../pytorch/.idea/pytorch.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pytorch/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pytorch/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

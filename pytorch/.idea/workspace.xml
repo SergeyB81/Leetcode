@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="eef15d87-b5cf-4d66-a810-73f4e975d1d7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../pythonProject_71/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_71/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pythonProject_sobes_VN_7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_sobes_VN_7/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pythonProject_sobes_VN_8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject_sobes_VN_8/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,10 +33,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.1.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/user/Desktop/work/git/leetcode/pythonProject_33",
+    "last_opened_file_path": "C:/Users/user/Desktop/work/git/leetcode/pytorch",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
