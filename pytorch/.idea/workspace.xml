@@ -34,6 +34,7 @@
     "Python.1.executor": "Run",
     "Python.main.executor": "Run",
     "Python.neuro_net_9.executor": "Run",
+    "Python.neuro_net_9gpu.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/user/Desktop/work/git/leetcode/pytorch",
