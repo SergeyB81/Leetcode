@@ -185,3 +185,5 @@ if __name__ == "__main__":
     sorter.sort(almost_sorted.copy())
     time_almost = time.time() - start
     print(f"  Время сортировки: {time_almost:.6f} сек")
+
+    # 1
